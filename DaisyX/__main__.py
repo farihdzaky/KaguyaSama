@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Kaguya to your group ➕", url="t.me/KaguyaSamaRobot?startgroup=true"
+            text="☑ Add Kaguya to your group ☑", url="t.me/KaguyaSamaRobot?startgroup=true"
         ),
     ],
 ]
