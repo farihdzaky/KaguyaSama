@@ -3,13 +3,12 @@
 ## Everything will be changed in the release
 
 
-# “ Hey there 👋 I'm Daisy „
+# “ Hey there 👋 I'm Kaguya „
 ## AI based Advanced telegram Group Management Bot Suit For All Your Needs ❤️
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/inukaasith/Daisy-x.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gurwinder262/KaguyaSama.git)
 
-## https://daisyproject.studio
-## Avaiilable on Telegram as [@DaisyXBot](https://t.me/daisyxbot)
+## Avaiilable on Telegram as [@kaguya](https://t.me/kaguyasamarobot)
 
 
 
