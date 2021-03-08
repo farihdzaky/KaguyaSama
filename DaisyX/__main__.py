@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [Kaguya](https://telegra.ph/file/02cf4f4c7682fc5b5546c.jpg)
+Hello there, I'm [Chika](https://telegra.ph/file/e416d070047b5677ae081.jpg)
 
 I am an Anime Themed Group Managing Bot and I will help in managing your group
 
-✪ Make sure you read *INFO* Section Below ✪ 
+✨ Make sure you read *INFO* Section Below ✨
 """
 
 buttons = [
@@ -79,14 +79,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☑ Add Kaguya to your group ☑", url="t.me/KaguyaSamaRobot?startgroup=true"
+            text="☑ Add Chika to your group ☑", url="t.me/ChikaFujiwara_Robot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/02cf4f4c7682fc5b5546c.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/0780d277cf7a6ad41f8f9.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -101,7 +101,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Alpha](t.me/AlphaFreakz),"""
+Support them  [Devano](t.me/Xlaaf),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,10 +360,10 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi again!  The name's {dispatcher.bot.first_name}  \n\n I'm a next generational group management bot developed by Magnificent Union.* "
-            f"\n\n 🔥 Join [Magnificent Union](https://t.me/MagnificentUnion) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"* Hi Friend!  The name's {dispatcher.bot.first_name}  \n\n I'm a next generational group management bot developed by Voha Union.* "
+            f"\n\n 🔥 Join [Voha Union](https://t.me/VohaUnion) To Keep Yourself Updated About {dispatcher.bot.first_name} 🎗️"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/02cf4f4c7682fc5b5546c.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/0780d277cf7a6ad41f8f9.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -398,7 +398,7 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [InfinityJE](https://t.me/infinityje).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Voha](https://t.me/VohaUnion).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -421,7 +421,7 @@ def DaisyX_about_callback(update, context):
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\nBased on [Daisy](https://github.com/inukaasith/daisy) + [Naruto](https://github.com/imjanindu/narutorobot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by InukaASiTH and Imjanindu"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @VohaUnion.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -479,11 +479,11 @@ def DaisyX_about_callback(update, context):
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
             f"\n✪ Always try to keep credits, so \n  This hardwork is done by Infinity_Bots team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @VohaUnion."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
             f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of DaisyXBot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
+            f"\n\nFor any kind of help, related to this bot, Join @VohaUniom."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -538,7 +538,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            url="https://t.me/VohaUnion".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
