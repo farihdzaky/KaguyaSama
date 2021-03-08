@@ -6,7 +6,7 @@
 # “ Hey there 👋 I'm Kaguya „
 ## AI based Advanced telegram Group Management Bot Suit For All Your Needs ❤️
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gurwinder262/KaguyaSama.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/farihdzaky/KaguyaSama.git)
 
 ## Avaiilable on Telegram as [@kaguya](https://t.me/kaguyasamarobot)
 
@@ -39,6 +39,6 @@ The Main Branch (Basic features only)
 Kaguya v1.0(core)
 
 ## Special Credits
-- [Alpha](https://github.com/Gurwinder262) - A Co-Developer of Project
+- [farihyuti](https://github.com/farihyuti) - A Co-Developer of Project
 
 
